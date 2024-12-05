@@ -40,3 +40,15 @@ def analizar_texto():
 
 if __name__ == '__main__':
     app.run(debug=True, host="0.0.0.0", port=5000)
+
+
+''' 
+
+PREGUNTAS DE PRUEBA
+
+
+Baja - ¿Cuál es la capital del mundo?
+Media - ¿Qué es AGI?
+Alta - ¿Qué implicaciones éticas y tecnológicas tiene el desarrollo de la inteligencia artificial general (AGI) en la sociedad del futuro?
+
+'''

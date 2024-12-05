@@ -30,7 +30,7 @@ document.getElementById("consulta-form").addEventListener("submit", async functi
         respuestaDiv.textContent = respuestaTexto;  // Solo la respuesta de LM Studio
         console.log(respuestaTexto)
         // Enviar la respuesta obtenida para análisis
-        const responseAnalisis = await fetch("http://localhost:10000/analyzer", {
+        const responseAnalisis = await fetch("http://ec2-54-204-164-85.compute-1.amazonaws.com:10000/analyzer", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ texto: respuestaTexto })
