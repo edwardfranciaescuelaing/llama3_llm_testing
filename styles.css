@@ -1,0 +1,118 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Asegura que los elementos no sobresalgan del formulario */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del formulario */
+form {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 420px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+form:hover {
+    transform: scale(1.02);
+}
+
+/* Etiqueta del formulario */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #00796b;
+    font-size: 1.1em;
+}
+
+/* Asegura que el input se ajuste al ancho del formulario */
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #b2dfdb;
+    border-radius: 8px;
+    font-size: 1em;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+
+input[type="text"]:focus {
+    border-color: #00796b;
+}
+
+/* Botón de envío */
+button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    background-color: #004d40;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para resultados */
+.resultado {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 420px;
+    margin-bottom: 15px;
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.resultado:hover {
+    transform: scale(1.02);
+}
+
+.resultado p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #004d40;
+}
+
+/* Resaltado de texto */
+strong {
+    color: #00796b;
+}
+
+/* Estilo para mensajes de error */
+.error {
+    color: #d32f2f;
+    background-color: #ffebee;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 10px;
+}
