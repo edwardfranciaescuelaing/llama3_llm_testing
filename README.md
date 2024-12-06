@@ -136,7 +136,7 @@ A continuación se presentan algunas preguntas de prueba que puedes usar para ev
 
 - **Media:** ¿Qué es AGI?
 
-![image](https://github.com/user-attachments/assets/209e9f90-a627-4bfd-ae91-1d774d649166)
+![image](https://github.com/user-attachments/assets/e2758a20-1be6-4c01-be0a-879af44d81f4)
 
 - **Alta:** ¿Qué implicaciones éticas y tecnológicas tiene el desarrollo de la inteligencia artificial general (AGI) en la sociedad del futuro?
 
