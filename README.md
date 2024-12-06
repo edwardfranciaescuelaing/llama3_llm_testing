@@ -79,13 +79,13 @@ Si prefieres ejecutar el proyecto utilizando Docker, sigue estos pasos:
 1. **Construir la imagen de Docker:**
 
    ```bash
-   docker build -t analyzer-flask .
+   docker build -t analyzer-api .
    ```
 
 2. **Ejecutar el contenedor Docker:**
 
    ```bash
-   docker run -p 5000:5000 analyzer-flask
+   docker run -p 10000:5000 analyzer-api
    ```
 
    Esto iniciará el servidor Flask dentro del contenedor Docker, accesible en `http://localhost:5000`.
@@ -131,12 +131,15 @@ Para el despliegue de esta aplicación se tiene en cuenta lo siguiente
 A continuación se presentan algunas preguntas de prueba que puedes usar para evaluar el comportamiento de la herramienta:
 
 - **Baja:** ¿Cuál es la capital del mundo?
+
 ![image](https://github.com/user-attachments/assets/479c7195-2fac-4a08-9c57-2041d949fe5c)
 
 - **Media:** ¿Qué es AGI?
+
 ![image](https://github.com/user-attachments/assets/209e9f90-a627-4bfd-ae91-1d774d649166)
 
 - **Alta:** ¿Qué implicaciones éticas y tecnológicas tiene el desarrollo de la inteligencia artificial general (AGI) en la sociedad del futuro?
+
 ![image](https://github.com/user-attachments/assets/d7660b5d-ab49-49b6-9d33-bcfc56afce4e)
 
 
