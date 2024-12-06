@@ -112,14 +112,41 @@ El endpoint `/analyzer` está diseñado para recibir peticiones `POST` con un cu
 }
 ```
 
+## Despliegue y Arquitectura
+
+En este proyecto también se encuentra el archivo architecture.png con la arquitectura recomendada para balancear actividades al momento de analizar un Llm, como se ve acontinuación
+
+![architecture](https://github.com/user-attachments/assets/9526a0b2-edb4-48cf-ae2f-5086f26f5d6d)
+
+Para el despliegue de esta aplicación se tiene en cuenta lo siguiente
+
+- Acceso AWS Aplify
+- Acceso AWS EC2
+- Docker
+- Aplicación de LM Studio
+- Modelo Llama 3.2 B Instruct
+
 ## Pruebas
 
 A continuación se presentan algunas preguntas de prueba que puedes usar para evaluar el comportamiento de la herramienta:
 
 - **Baja:** ¿Cuál es la capital del mundo?
+![image](https://github.com/user-attachments/assets/479c7195-2fac-4a08-9c57-2041d949fe5c)
+
 - **Media:** ¿Qué es AGI?
+![image](https://github.com/user-attachments/assets/209e9f90-a627-4bfd-ae91-1d774d649166)
+
 - **Alta:** ¿Qué implicaciones éticas y tecnológicas tiene el desarrollo de la inteligencia artificial general (AGI) en la sociedad del futuro?
+![image](https://github.com/user-attachments/assets/d7660b5d-ab49-49b6-9d33-bcfc56afce4e)
 
-## Contribuciones
 
-Este proyecto está abierto a contribuciones. Si deseas colaborar, por favor realiza un `fork` del repositorio y envía un `pull request`.
+
+
+
+
+
+
+
+
+
+
